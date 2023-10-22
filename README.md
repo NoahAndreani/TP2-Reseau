@@ -20,6 +20,7 @@ Statistiques Ping pour 10.10.10.34:
 Durée approximative des boucles en millisecondes :
     Minimum = 1ms, Maximum = 6ms, Moyenne = 2ms
 ### 3/
+voir le fichier pingpong
 
 ## II
 ### 1/ 
@@ -50,3 +51,9 @@ Interface : 10.10.10.33 --- 0x16
   réapparu :
    10.10.10.34           98-ee-cb-ca-63-9d     dynamique
   10.10.10.35           ff-ff-ff-ff-ff-ff     statique
+### 4/
+1ere trame : Source : CompalIn_4f:d8:97 -> destination : Broadcast
+2eme trame : Source : WistronI_ca:63:9d -> destination : CompalIn_4f:d8:97
+les deux sources semblent être des parties d'adresses MAC (avec un identifiant?)
+## III
+
