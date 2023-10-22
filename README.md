@@ -20,3 +20,33 @@ Statistiques Ping pour 10.10.10.34:
 Durée approximative des boucles en millisecondes :
     Minimum = 1ms, Maximum = 6ms, Moyenne = 2ms
 ### 3/
+
+## II
+### 1/ 
+la commande est arp -a
+l'adresse MAC du binome est : 98-ee-cb-ca-63-9d
+et la MAC de la gateway est  6c-ba-b8-9b-01-40 (trouvé avec un arp -a [ip gateway])
+### 2/
+pour la vider il faut "arp -d *" ce qui donne :
+PS C:\WINDOWS\system32> arp -a
+
+Interface : 192.168.1.58 --- 0x4
+  Adresse Internet      Adresse physique      Type
+  192.168.1.1           6c-ba-b8-9b-01-40     dynamique
+  192.168.1.12          30-fd-38-09-02-2c     dynamique
+  192.168.1.18          e8-ca-c8-17-c4-ea     dynamique
+  224.0.0.2             01-00-5e-00-00-02     statique
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 192.168.56.1 --- 0x13
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+### 3/
+
+Interface : 10.10.10.33 --- 0x16
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+  réapparu :
+   10.10.10.34           98-ee-cb-ca-63-9d     dynamique
+  10.10.10.35           ff-ff-ff-ff-ff-ff     statique
