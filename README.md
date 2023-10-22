@@ -56,4 +56,14 @@ Interface : 10.10.10.33 --- 0x16
 2eme trame : Source : WistronI_ca:63:9d -> destination : CompalIn_4f:d8:97
 les deux sources semblent être des parties d'adresses MAC (avec un identifiant?)
 ## III
+### 1/
+voir le fichier "DORA"
+Discover : Source : 0.0.0.0 -> destination : 255.255.255.255
+Offer : Source : 192.168.1.1 -> destination : 192.168.1.58
+Request : Source : 0.0.0.0 -> destination : 255.255.255.255
+ACK (Acknowledge) : Source : 192.168.1.1 -> destination : 192.168.1.58
 
+1ere trame (Discover) demande a broadcast si une ip est dispo
+2eme trame (Offer) la passerelle répond en donnant une ip (la notre en l'occurance car on viens de se connecter) (donc la passerelle et l'ip sont connus)
+3eme trame (Request) demande un serveur DNS Ainsi
+4eme trame (Acknowledge) lui donne
