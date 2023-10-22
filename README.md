@@ -43,7 +43,7 @@ Interface : 192.168.56.1 --- 0x13
   Adresse Internet      Adresse physique      Type
   224.0.0.22            01-00-5e-00-00-16     statique
 ### 3/
-
+Voir fichier "ARP1erefois"
 Interface : 10.10.10.33 --- 0x16
   Adresse Internet      Adresse physique      Type
   224.0.0.22            01-00-5e-00-00-16     statique
