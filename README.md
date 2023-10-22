@@ -31,7 +31,7 @@ et la MAC de la gateway est  6c-ba-b8-9b-01-40 (trouvé avec un arp -a [ip gatew
 pour la vider il faut "arp -d *" ce qui donne :  
 PS C:\WINDOWS\system32> arp -a  
 
-Interface : 192.168.1.58 --- 0x4
+Interface : 192.168.1.58 --- 0x4  
   Adresse Internet      Adresse physique      Type  
   192.168.1.1           6c-ba-b8-9b-01-40     dynamique  
   192.168.1.12          30-fd-38-09-02-2c     dynamique  
@@ -39,9 +39,9 @@ Interface : 192.168.1.58 --- 0x4
   224.0.0.2             01-00-5e-00-00-02     statique  
   224.0.0.22            01-00-5e-00-00-16     statique  
 
-Interface : 192.168.56.1 --- 0x13
-  Adresse Internet      Adresse physique      Type
-  224.0.0.22            01-00-5e-00-00-16     statique
+Interface : 192.168.56.1 --- 0x13  
+  Adresse Internet      Adresse physique      Type  
+  224.0.0.22            01-00-5e-00-00-16     statique  
 ### 3/
 Voir fichier "ARP1erefois"  
 Interface : 10.10.10.33 --- 0x16  
